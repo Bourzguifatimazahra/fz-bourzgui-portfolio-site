@@ -108,4 +108,19 @@
   .card-hover {
     @apply transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg;
   }
+
+  .name-glow {
+    text-shadow: 0 0 10px rgba(88, 98, 77, 0.3),
+                 0 0 20px rgba(88, 98, 77, 0.2),
+                 0 0 30px rgba(88, 98, 77, 0.1);
+  }
+
+  .hover-glow {
+    @apply transition-all duration-300;
+  }
+
+  .hover-glow:hover {
+    filter: drop-shadow(0 0 10px rgba(88, 98, 77, 0.3))
+           drop-shadow(0 0 20px rgba(88, 98, 77, 0.2));
+  }
 }
