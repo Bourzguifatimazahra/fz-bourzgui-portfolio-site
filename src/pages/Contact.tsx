@@ -43,7 +43,7 @@ export default function Contact() {
                     
                     <div>
                       <p className="text-sm text-muted-foreground mb-1">Location</p>
-                      <p>Morocco</p>
+                      <p>Casablanca, Morocco/p>
                     </div>
                   </div>
                   
@@ -60,7 +60,7 @@ export default function Contact() {
                         <Linkedin className="h-5 w-5" />
                       </a>
                       <a 
-                        href="#" 
+                        href="https://www.linkedin.com/in/fatima-zahra-bourzgui-49020b341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
                         target="_blank" 
                         rel="noreferrer"
                         className="p-3 bg-secondary rounded-full text-foreground hover:text-primary transition-colors"
@@ -69,7 +69,7 @@ export default function Contact() {
                         <Twitter className="h-5 w-5" />
                       </a>
                       <a 
-                        href="#" 
+                        href="https://x.com/BourzguiZahra?t=OatPu5P16MbsY14YxziLZQ&s=09" 
                         target="_blank" 
                         rel="noreferrer"
                         className="p-3 bg-secondary rounded-full text-foreground hover:text-primary transition-colors"

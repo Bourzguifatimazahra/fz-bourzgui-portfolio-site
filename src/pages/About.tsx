@@ -1,4 +1,3 @@
-
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -7,49 +6,75 @@ import { TimelineItem } from "@/components/TimelineItem";
 export default function About() {
   const experiences = [
     {
-      title: "Senior DevOps Engineer",
-      organization: "Tech Solutions Inc.",
-      period: "2021 - Present",
-      description: "Leading cloud infrastructure initiatives and implementing CI/CD pipelines. Reduced deployment time by 70% and improved system reliability.",
+      title: "StageLink",
+      organization: "Orange",
+      period: "April 2024 – June 2024",
+      description: "Designed and developed a web platform using PHP (Laravel) and MySQL for data management.Integrated the Indeed API for real-time internship offers and Google Maps API for geolocation of partner companies.Implemented an ATS system for candidate application management.",
+      location: "Agadir, Morocco",
+    },
+    {
+      title: "Full Stack Developer",
+      organization: "MediaAtlas",
+      period: "November 2024 – January 2025",
+      description: "Developed an AI-powered chatbot using Python.Enhanced performance by over 30%.",
+      location: "Sidi Slimane, Morocco",
+    },
+    {
+      title: "Web Developer",
+      organization: "Adlab Factory",
+      period: "February 2025 – March 2025",
+      description: "Developed web applications using PHP and Laravel.Integrated Google Sheets with WordPress.Developed ERP modules for Dolibarr.",
       location: "Casablanca, Morocco",
-    },
-    {
-      title: "Full-Stack Developer",
-      organization: "Digital Innovations",
-      period: "2019 - 2021",
-      description: "Developed and maintained web applications using React, Node.js, and AWS. Collaborated with cross-functional teams for product development.",
-      location: "Rabat, Morocco",
-    },
-    {
-      title: "Junior Software Engineer",
-      organization: "StartUp Hub",
-      period: "2017 - 2019",
-      description: "Built RESTful APIs, implemented database solutions, and worked on frontend development using modern JavaScript frameworks.",
-      location: "Marrakech, Morocco",
     },
   ];
 
   const education = [
     {
-      title: "Master's in Computer Science",
-      organization: "University of Technology",
-      period: "2015 - 2017",
-      description: "Specialization in Cloud Computing and Distributed Systems. Thesis on Optimizing Kubernetes Deployments.",
+      title: "Full Stack Coding Bootcamp – MERN Stack",
+      organization: "Geeks institute",
+      period: "March 2025 – Present",
+      description: "Advanced training in full stack web development using JavaScript, Python, React.js, Node.js, Express, MongoDB,and PostgreSQL.",
       location: "Casablanca, Morocco",
       isEducation: true,
     },
     {
-      title: "Bachelor's in Software Engineering",
-      organization: "National School of Computer Science",
-      period: "2012 - 2015",
-      description: "Focus on software development methodologies, algorithms, and database management.",
-      location: "Rabat, Morocco",
+      title: "DevOps Certification",
+      organization: "Orange Digital Center",
+      description: "Comprehensive DevOps training covering CI/CD pipelines, Docker, Kubernetes, Jenkins, GitHub Actions, Agile & Scrum methodologies.",
+      location: "Casablanca, Morocco",
+      period: "November 2024 – January 2025",
       isEducation: true,
     },
     {
-      title: "Professional Certification",
-      organization: "AWS Certified Solutions Architect",
-      period: "2018",
+      title: "Bachelor's in Software Engineering",
+      organization: "Université Ibn Zohr",
+      period: "2023- 2024",
+      description: "Focused on software engineering principles, object-oriented programming, web development, algorithm analysis, databases, and software project management.",
+      location: "Agadir, Morocco",
+      isEducation: true,
+    },
+    {
+      title: "DEUG in Mathematical & Computer Sciences",
+      organization: "Université Ibn Zohr",
+      period: "2021- 2023",
+      description: "Studied foundational subjects in mathematics, programming , data structures, algorithms, and discrete mathematics.",
+      location: "Agadir, Morocco",
+      isEducation: true,
+    },
+    {
+      title: "Gaming Development",
+      organization: "École 1337",
+      period: "2018- 2020",
+      description: "Specialized in game development with a project-based learning approach. Focused on C, C++, algorithms, software architecture, system programming, and team collaboration in a peer-learning environment.",
+      location: "Benguerir, Morocco",
+      isEducation: true,
+    },
+    {
+      title: "Baccalaureate in Mathematical Sciences – Series A",
+      organization: "Lycée El Fath",
+      period: "2017- 2018",
+      description: "Concentration in advanced mathematics, physics, and analytical reasoning.",
+      location: "Agadir, Morocco",
       isEducation: true,
     },
   ];
@@ -73,18 +98,18 @@ export default function About() {
                 <h2 className="mb-6">My Story</h2>
                 <div className="prose prose-sm max-w-none">
                   <p className="mb-4">
-                    I'm Fatima Zahra Bourzgui, a passionate DevOps Engineer and Full-Stack Developer with over 5 years of experience in the tech industry.
+                    I'm Fatima Zahra Bourzgui, a passionate Full-Stack Developer and DevOps Engineer with a strong foundation in software engineering and a growing portfolio of impactful projects across web development, automation, and cloud infrastructure.
                   </p>
                   <p className="mb-4">
-                    My journey in technology began with a deep curiosity about how systems work and how they can be optimized. This led me to pursue education in computer science and specialize in cloud technologies and software development.
+                    My tech journey began with a love for mathematics and problem-solving, which naturally led me to pursue a degree in Mathematics & Computer Science and later specialize in software engineering and DevOps practices.
                   </p>
                   <p className="mb-4">
-                    Throughout my career, I've worked on diverse projects ranging from cloud migrations to developing scalable web applications. I'm particularly passionate about automation, containerization, and creating efficient CI/CD pipelines.
+                    I've contributed to a wide range of projects—from building real-time chat apps and CRUD APIs to integrating ERP systems and designing scalable Laravel-based platforms. I thrive on creating clean code, efficient CI/CD pipelines, and smart automations using tools like Docker, GitHub Actions, and Jenkins.
                   </p>
                   <p className="mb-4">
-                    When I'm not coding or configuring servers, I enjoy contributing to open-source projects, mentoring junior developers, and staying up-to-date with the latest tech trends.
+                    Beyond the code, I enjoy mentoring aspiring developers through bootcamps and workshops, organizing tech events, and constantly exploring emerging technologies like AI, Kubernetes, and cybersecurity. My work blends passion, pedagogy, and performance.
                   </p>
-                  
+
                   <div className="mt-8">
                     <Button size="lg">
                       Download CV
@@ -99,7 +124,7 @@ export default function About() {
                 <h2 className="mb-6">Work Experience</h2>
                 <div className="space-y-0">
                   {experiences.map((experience, index) => (
-                    <TimelineItem key={index} {...experience} />
+                    <TimelineItem key={index} {...{ ...experience }} />
                   ))}
                 </div>
               </div>
