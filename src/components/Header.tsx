@@ -27,6 +27,7 @@ export function Header() {
     { name: "Projects", path: "/projects" },
     { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
+    { name: "Dashboard", path: "/dashboard" },
   ];
 
   const isActive = (path: string) => {
