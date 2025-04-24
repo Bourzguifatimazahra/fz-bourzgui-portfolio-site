@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Header } from "@/components/Header";
@@ -87,9 +86,8 @@ export default function Index() {
             </div>
             <div className="flex-1 max-w-sm">
               <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto rounded-full overflow-hidden border-4 border-primary">
-                {/* Placeholder profile image - replace with actual image later */}
                 <img 
-                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" 
+                  src="/lovable-uploads/aac2bed3-1199-42c0-8156-60b60c26f6c6.png" 
                   alt="Fatima Zahra Bourzgui" 
                   className="w-full h-full object-cover"
                 />
