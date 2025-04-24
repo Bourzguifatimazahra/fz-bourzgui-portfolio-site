@@ -16,23 +16,27 @@ export default function Index() {
   // Featured projects (sample data)
   const featuredProjects = [
     {
-      title: "Cloud Migration Project",
-      description: "Led the migration of on-premises infrastructure to AWS, implementing CI/CD pipelines and reducing deployment time by 70%.",
-      tags: ["AWS", "Docker", "Jenkins", "Terraform"],
-      imageSrc: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+      title: "Blog Platform",
+      description: "A full-stack blogging platform built with modern web technologies. Features user authentication, content management, and responsive design.",
+      tags: ["React", "Node.js", "MongoDB", "Express"],
+      imageSrc: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+      demoUrl: "https://stellar-sundae-cb7301.netlify.app/",
+      githubUrl: "https://github.com/Bourzgui/front-endblog"
     },
     {
-      title: "Microservices Architecture",
-      description: "Designed and implemented a microservices architecture using Kubernetes and Docker, improving system scalability and reliability.",
-      tags: ["Kubernetes", "Docker", "Microservices", "Go"],
+      title: "Python Todo Application", 
+      description: "A feature-rich todo application built with Python, demonstrating clean code practices and efficient task management.",
+      tags: ["Python", "SQLite", "Flask", "REST API"],
       imageSrc: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+      githubUrl: "https://github.com/Bourzgui/python-todo"
     },
     {
-      title: "DevOps Automation Tool",
-      description: "Created an internal tool that automated deployment workflows, reducing manual intervention and increasing team productivity.",
-      tags: ["Python", "Ansible", "GitLab CI", "Bash"],
+      title: "CRM System",
+      description: "A comprehensive Customer Relationship Management system with frontend and backend components.",
+      tags: ["React", "Node.js", "API", "Database"],
       imageSrc: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
-    },
+      githubUrl: "https://github.com/Bourzguifatimazahra/crm-front"
+    }
   ];
 
   const containerVariants = {
