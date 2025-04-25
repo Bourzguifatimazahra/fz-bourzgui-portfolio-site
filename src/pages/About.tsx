@@ -98,9 +98,26 @@ export default function About() {
                 <h2 className="mb-6">My Story</h2>
                 <div className="prose prose-sm max-w-none">
                   <p className="mb-4">
+<<<<<<< HEAD
+=======
                     I'm Fatima Zahra Bourzgui, a passionate Full-Stack Developer and DevOps Engineer with a strong foundation in software engineering and a growing portfolio of impactful projects across web development, automation, and cloud infrastructure.
                   </p>
+>>>>>>> d1ee5d06faa6d1d520e44141f64a2344ecebdad9
                   <p className="mb-4">
+<<<<<<< HEAD
+  I'm Fatima Zahra Bourzgui, a passionate Full-Stack Developer and DevOps Engineer with a strong foundation in software engineering and a growing portfolio of impactful projects across web development, automation, and cloud infrastructure.
+</p>
+<p className="mb-4">
+  My tech journey began with a love for mathematics and problem-solving, which naturally led me to pursue a degree in Mathematics & Computer Science and later specialize in software engineering and DevOps practices.
+</p>
+<p className="mb-4">
+  I've contributed to a wide range of projects—from building real-time chat apps and CRUD APIs to integrating ERP systems and designing scalable Laravel-based platforms. I thrive on creating clean code, efficient CI/CD pipelines, and smart automations using tools like Docker, GitHub Actions, and Jenkins.
+</p>
+<p className="mb-4">
+  Beyond the code, I enjoy mentoring aspiring developers through bootcamps and workshops, organizing tech events, and constantly exploring emerging technologies like AI, Kubernetes, and cybersecurity. My work blends passion, pedagogy, and performance.
+</p>
+
+=======
                     My tech journey began with a love for mathematics and problem-solving, which naturally led me to pursue a degree in Mathematics & Computer Science and later specialize in software engineering and DevOps practices.
                   </p>
                   <p className="mb-4">
@@ -110,6 +127,7 @@ export default function About() {
                     Beyond the code, I enjoy mentoring aspiring developers through bootcamps and workshops, organizing tech events, and constantly exploring emerging technologies like AI, Kubernetes, and cybersecurity. My work blends passion, pedagogy, and performance.
                   </p>
 
+>>>>>>> d1ee5d06faa6d1d520e44141f64a2344ecebdad9
                   <div className="mt-8">
                     <Button size="lg">
                       Download CV
