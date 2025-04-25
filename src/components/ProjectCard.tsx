@@ -28,7 +28,7 @@ export function ProjectCard({
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      {imageSrc && (
+      
         <div className="relative overflow-hidden h-48">
           <img 
             src={imageSrc} 
@@ -38,7 +38,7 @@ export function ProjectCard({
             }`}
           />
         </div>
-      )}
+      
       <CardHeader>
         <CardTitle className="text-xl md:text-2xl">{title}</CardTitle>
         <div className="flex flex-wrap gap-2 mt-2">

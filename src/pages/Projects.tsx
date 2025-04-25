@@ -10,14 +10,29 @@ export default function Projects() {
       tags: ["React", "Node.js", "MongoDB", "Express"],
       githubUrl: "https://github.com/Bourzgui/front-endblog",
       demoUrl: "https://stellar-sundae-cb7301.netlify.app/",
-      imageSrc: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+      imageSrc: "https://i.imgur.com/gzsf6kd.png"
     },
     {
-      title: "Python Todo Application",
-      description: "Task management application built with Python and modern web technologies.",
-      tags: ["Python", "SQLite", "Flask"],
-      githubUrl: "https://github.com/Bourzgui/python-todo",
-      imageSrc: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+      title: "Stagelink",
+      description: "The StageLink project is a web application developed with Laravel. It allows the management of internship offers and CVs, with a system for handling applications, search filters, and administrative features.",
+      tags: ["React", "Node.js", "MongoDB", "Laravel"],
+      githubUrl: "https://github.com/Bourzgui/front-endblog",
+      demoUrl: "https://stellar-sundae-cb7301.netlify.app/",
+      imageSrc: "https://i.imgur.com/rotbnuE.png"
+    },
+    {
+      title: "Hommage à Marie Curie",
+      description: "The Tribute to Marie Curie website showcases the life and achievements of Marie Curie",
+      tags: ["Html", "Css"],
+      githubUrl: "https://github.com/Bourzguifatimazahra/prebootcamp/tree/main/DI-Bootcamp-Stage1/Final-Project",
+      imageSrc: "https://i.imgur.com/DYNUl3d.png"
+    },
+    {
+    title: "Boulangerie Project",
+    description: "The Boulangerie Délicieuse project is a website for a family-owned bakery that offers fresh bread and artisanal pastries",
+    tags: ["Web", "Management", "Frontend"],
+    githubUrl: "https://github.com/Bourzguifatimazahra/cookiesweb/tree/main/site%20web",
+    imageSrc: "https://i.imgur.com/icAu4NU.png"
     },
     {
       title: "TF Tasks",
@@ -27,25 +42,32 @@ export default function Projects() {
       imageSrc: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7"
     },
     {
-      title: "Boulangerie Project",
-      description: "Digital solution for bakery management and operations.",
-      tags: ["Web", "Management", "Frontend"],
-      githubUrl: "https://github.com/Bourzgui/Boulangerie",
-      imageSrc: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+      title: "3D Rubik's Cube game",
+      description: "This is a fun and engaging 3D Rubik's Cube game developed using HTML, CSS, and JavaScript",
+      tags: ["Web", "Game", "Frontend"],
+      githubUrl: "https://github.com/Bourzguifatimazahra/Cube",
+      imageSrc: "https://i.imgur.com/CxjH8cJ.png"
     },
     {
       title: "Bode Plotter",
-      description: "Technical tool for creating and analyzing Bode plots.",
-      tags: ["Engineering", "Plotting", "Analysis"],
-      githubUrl: "https://github.com/Bourzgui/Bode-Plotter/tree/main/diagramme%20de%20Bode",
-      imageSrc: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+      description: "The project allows you to plot Bode diagrams for filters, view the history of applied filters, generate PDFs of the diagrams, and save the filter parameters in an SQLite database.",
+      tags: ["Python", "Tkinter", "SQLite", "FPDF", "Matplotlib", "SciPy"],
+      githubUrl: "https://github.com/Bourzguifatimazahra/BodePlotter",
+      imageSrc: "https://i.imgur.com/UWYKu46.png"
+    },
+    {
+      title: "the cube in 3D. 🟥🟩🟦🟨🟧🟩",
+      description: " Track the time it takes to solve the cube,Keep track of the number of moves made.Earn a score for successfully solving the cube,Get step-by-step guidance on solving the cube,Play the game on any device",
+      tags: ["html", "css", "js", "Game"],
+      githubUrl: "https://github.com/Bourzguifatimazahra/Cube",
+      imageSrc: "https://i.imgur.com/JilPJZT.png"
     },
     {
       title: "CRM System",
       description: "Full-stack CRM solution with advanced features for customer management.",
-      tags: ["React", "Node.js", "Full-stack"],
-      githubUrl: "https://github.com/Bourzguifatimazahra/crm-front",
-      imageSrc: "https://images.unsplash.com/photo-1500673922987-e212871fec22"
+      tags: ["React", "Node.js", "Full-stack",],
+      githubUrl: "https://github.com/Bourzguifatimazahra/crm/tree/main/c-rm",
+      imageSrc: "https://i.imgur.com/ECdzJ96.png"
     }
   ];
 
@@ -58,7 +80,7 @@ export default function Projects() {
           <header className="mb-12 text-center">
             <h1 className="mb-4">My Projects</h1>
             <p className="max-w-2xl mx-auto text-muted-foreground">
-              A collection of my work in DevOps, cloud infrastructure, and full-stack development.
+              A collection of my work in DevOps, and full-stack development.
               Each project represents different skills and challenges I've tackled.
             </p>
           </header>

@@ -43,7 +43,7 @@ export default function Contact() {
                     
                     <div>
                       <p className="text-sm text-muted-foreground mb-1">Location</p>
-                      <p>Casablanca, Morocco/p>
+                      <p>Casablanca, Morocco</p>
                     </div>
                   </div>
                   
