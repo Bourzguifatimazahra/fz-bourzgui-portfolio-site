@@ -51,7 +51,7 @@ export default function Contact() {
                     <h4 className="text-lg font-medium mb-4">Connect With Me</h4>
                     <div className="flex gap-4">
                       <a 
-                        href="https://ma.linkedin.com/in/fatima-zahra-bourzgui-49020b341" 
+                        href="https://www.linkedin.com/in/fatima-zahra-bourzgui-49020b341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
                         target="_blank" 
                         rel="noreferrer"
                         className="p-3 bg-secondary rounded-full text-foreground hover:text-primary transition-colors"
@@ -60,7 +60,7 @@ export default function Contact() {
                         <Linkedin className="h-5 w-5" />
                       </a>
                       <a 
-                        href="https://www.linkedin.com/in/fatima-zahra-bourzgui-49020b341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+                        href="https://x.com/BourzguiZahra" 
                         target="_blank" 
                         rel="noreferrer"
                         className="p-3 bg-secondary rounded-full text-foreground hover:text-primary transition-colors"
@@ -69,7 +69,7 @@ export default function Contact() {
                         <Twitter className="h-5 w-5" />
                       </a>
                       <a 
-                        href="https://x.com/BourzguiZahra?t=OatPu5P16MbsY14YxziLZQ&s=09" 
+                        href="https://www.instagram.com/fatima_ezzahra_bour?utm_source=qr&igsh=eHdqNTk2dmFqMWhi" 
                         target="_blank" 
                         rel="noreferrer"
                         className="p-3 bg-secondary rounded-full text-foreground hover:text-primary transition-colors"

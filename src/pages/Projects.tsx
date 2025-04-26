@@ -80,7 +80,7 @@ export default function Projects() {
           <header className="mb-12 text-center">
             <h1 className="mb-4">My Projects</h1>
             <p className="max-w-2xl mx-auto text-muted-foreground">
-              A collection of my work in DevOps, and full-stack development.
+              A collection of my work in Full-stack development, and DevOps.
               Each project represents different skills and challenges I've tackled.
             </p>
           </header>

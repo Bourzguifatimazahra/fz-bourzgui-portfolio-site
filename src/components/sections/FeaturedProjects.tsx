@@ -8,11 +8,11 @@ import { motion } from "framer-motion";
 const featuredProjects = [
   {
     title: "Blog Platform",
-    description: "A full-stack blogging platform built with modern web technologies. Features user authentication, content management, and responsive design.",
+    description: "A full-stack blogging platform with modern features and responsive design.",
     tags: ["React", "Node.js", "MongoDB", "Express"],
-    imageSrc: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+    githubUrl: "https://github.com/Bourzgui/front-endblog",
     demoUrl: "https://stellar-sundae-cb7301.netlify.app/",
-    githubUrl: "https://github.com/Bourzgui/front-endblog"
+    imageSrc: "https://i.imgur.com/gzsf6kd.png"
   },
   {
     title: "Python Todo Application", 

@@ -111,7 +111,8 @@ export default function About() {
                   </p>
                   <div className="mt-8">
                     <Button size="lg">
-                      Download CV
+                    <a href="https://drive.google.com/file/d/1lKaXQViIhNXmkWR8DDCJtmz09nlzTvdj/view?usp=sharing">Download Resume</a>
+  
                     </Button>
                   </div>
                 </div>

@@ -20,7 +20,7 @@ export function Footer() {
           
           <div className="flex items-center gap-4">
             <a 
-              href="https://ma.linkedin.com/in/fatima-zahra-bourzgui-49020b341" 
+              href="https://www.linkedin.com/in/fatima-zahra-bourzgui-49020b341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
               target="_blank" 
               rel="noreferrer"
               className="text-foreground hover:text-primary transition-colors"
@@ -29,7 +29,7 @@ export function Footer() {
               <Linkedin className="h-5 w-5" />
             </a>
             <a 
-              href="#" 
+              href="https://x.com/BourzguiZahra" 
               target="_blank" 
               rel="noreferrer"
               className="text-foreground hover:text-primary transition-colors"
@@ -38,7 +38,7 @@ export function Footer() {
               <Twitter className="h-5 w-5" />
             </a>
             <a 
-              href="#" 
+              href="https://www.instagram.com/fatima_ezzahra_bour?utm_source=qr&igsh=eHdqNTk2dmFqMWhi" 
               target="_blank" 
               rel="noreferrer"
               className="text-foreground hover:text-primary transition-colors"
