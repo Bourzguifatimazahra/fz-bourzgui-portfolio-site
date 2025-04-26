@@ -12,22 +12,22 @@ const featuredProjects = [
     tags: ["React", "Node.js", "MongoDB", "Express"],
     githubUrl: "https://github.com/Bourzgui/front-endblog",
     demoUrl: "https://stellar-sundae-cb7301.netlify.app/",
-    imageSrc: "https://i.imgur.com/gzsf6kd.png"
+    imageSrc: "./images/blog4.png"
   },
   {
-    title: "Python Todo Application", 
-    description: "A feature-rich todo application built with Python, demonstrating clean code practices and efficient task management.",
-    tags: ["Python", "SQLite", "Flask", "REST API"],
-    imageSrc: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-    githubUrl: "https://github.com/Bourzgui/python-todo"
+    title: "3D Rubik's Cube game",
+    description: "This is a fun and engaging 3D Rubik's Cube game developed using HTML, CSS, and JavaScript",
+    tags: ["Web", "Game", "Frontend"],
+    githubUrl: "https://github.com/Bourzguifatimazahra/Cube",
+    imageSrc: "https://i.imgur.com/CxjH8cJ.png"
   },
   {
-    title: "CRM System",
-    description: "A comprehensive Customer Relationship Management system with frontend and backend components.",
-    tags: ["React", "Node.js", "API", "Database"],
-    imageSrc: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
-    githubUrl: "https://github.com/Bourzguifatimazahra/crm-front"
-  }
+    title: "Bode Plotter",
+    description: "The project allows you to plot Bode diagrams for filters, view the history of applied filters, generate PDFs of the diagrams, and save the filter parameters in an SQLite database.",
+    tags: ["Python", "Tkinter", "SQLite", "FPDF", "Matplotlib", "SciPy"],
+    githubUrl: "https://github.com/Bourzguifatimazahra/BodePlotter",
+    imageSrc: "https://i.imgur.com/UWYKu46.png"
+  },
 ];
 
 export function FeaturedProjects() {

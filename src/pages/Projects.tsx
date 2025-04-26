@@ -25,7 +25,7 @@ export default function Projects() {
       description: "The Tribute to Marie Curie website showcases the life and achievements of Marie Curie",
       tags: ["Html", "Css"],
       githubUrl: "https://github.com/Bourzguifatimazahra/prebootcamp/tree/main/DI-Bootcamp-Stage1/Final-Project",
-      imageSrc: "https://i.imgur.com/DYNUl3d.png"
+      imageSrc: "image/mari.png"
     },
     {
     title: "Boulangerie Project",
