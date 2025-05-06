@@ -10,7 +10,7 @@ export default function Projects() {
       tags: ["React", "Node.js", "MongoDB", "Express"],
       githubUrl: "https://github.com/Bourzgui/front-endblog",
       demoUrl: "https://stellar-sundae-cb7301.netlify.app/",
-      imageSrc: "https://i.imgur.com/gzsf6kd.png"
+      imageSrc: "src/image/blog4.png"
     },
     {
       title: "Stagelink",
@@ -18,14 +18,14 @@ export default function Projects() {
       tags: ["React", "Node.js", "MongoDB", "Laravel"],
       githubUrl: "https://github.com/Bourzgui/front-endblog",
       demoUrl: "https://stellar-sundae-cb7301.netlify.app/",
-      imageSrc: "https://i.imgur.com/rotbnuE.png"
+      imageSrc: "src/image/staglink.png"
     },
     {
       title: "Hommage à Marie Curie",
       description: "The Tribute to Marie Curie website showcases the life and achievements of Marie Curie",
       tags: ["Html", "Css"],
       githubUrl: "https://github.com/Bourzguifatimazahra/prebootcamp/tree/main/DI-Bootcamp-Stage1/Final-Project",
-      imageSrc: "image/mari.png"
+      imageSrc: "src/image/mari.png"
     },
     {
     title: "Boulangerie Project",
@@ -46,28 +46,28 @@ export default function Projects() {
       description: "This is a fun and engaging 3D Rubik's Cube game developed using HTML, CSS, and JavaScript",
       tags: ["Web", "Game", "Frontend"],
       githubUrl: "https://github.com/Bourzguifatimazahra/Cube",
-      imageSrc: "https://i.imgur.com/CxjH8cJ.png"
+      imageSrc: "src/image/cube .png"
     },
     {
       title: "Bode Plotter",
       description: "The project allows you to plot Bode diagrams for filters, view the history of applied filters, generate PDFs of the diagrams, and save the filter parameters in an SQLite database.",
       tags: ["Python", "Tkinter", "SQLite", "FPDF", "Matplotlib", "SciPy"],
       githubUrl: "https://github.com/Bourzguifatimazahra/BodePlotter",
-      imageSrc: "https://i.imgur.com/UWYKu46.png"
+      imageSrc: "src/image/bode_plot.png"
     },
     {
       title: "the cube in 3D. 🟥🟩🟦🟨🟧🟩",
       description: " Track the time it takes to solve the cube,Keep track of the number of moves made.Earn a score for successfully solving the cube,Get step-by-step guidance on solving the cube,Play the game on any device",
       tags: ["html", "css", "js", "Game"],
       githubUrl: "https://github.com/Bourzguifatimazahra/Cube",
-      imageSrc: "https://i.imgur.com/JilPJZT.png"
+      imageSrc: "src/image/cubee.png"
     },
     {
       title: "CRM System",
       description: "Full-stack CRM solution with advanced features for customer management.",
       tags: ["React", "Node.js", "Full-stack",],
       githubUrl: "https://github.com/Bourzguifatimazahra/crm/tree/main/c-rm",
-      imageSrc: "https://i.imgur.com/ECdzJ96.png"
+      imageSrc: "src/image/crm.png"
     }
   ];
 

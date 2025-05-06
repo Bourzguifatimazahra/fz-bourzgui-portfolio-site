@@ -111,8 +111,9 @@ export default function About() {
                   </p>
                   <div className="mt-8">
                     <Button size="lg">
-                    <a href="https://drive.google.com/file/d/1lKaXQViIhNXmkWR8DDCJtmz09nlzTvdj/view?usp=sharing">Download Resume</a>
-  
+                      <a href="https://cvdesignr.com/p/D0olpbzwnq37oVn">
+                        Download Resume
+                      </a>
                     </Button>
                   </div>
                 </div>
@@ -124,7 +125,7 @@ export default function About() {
                 <h2 className="mb-6">Work Experience</h2>
                 <div className="space-y-0">
                   {experiences.map((experience, index) => (
-                    <TimelineItem key={index} {...{ ...experience }} />
+                    <TimelineItem key={index} {...experience} />
                   ))}
                 </div>
               </div>
