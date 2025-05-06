@@ -65,7 +65,7 @@ Ce site portfolio a été créé pour :
 ---
 
 ## 📄 CV
-🔗 [Télécharger le CV]([https://cvdesignr.com/p/D0olpbzwnq37oVn])
+🔗 [Télécharger le CV]((https://cvdesignr.com/p/D0olpbzwnq37oVn))
 
 ---
 
