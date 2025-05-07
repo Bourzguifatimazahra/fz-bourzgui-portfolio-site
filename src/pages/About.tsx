@@ -2,7 +2,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { TimelineItem } from "@/components/TimelineItem";
-
+import { Link } from "react-router-dom";
 export default function About() {
   const experiences = [
     {
@@ -111,9 +111,7 @@ export default function About() {
                   </p>
                   <div className="mt-8">
                     <Button size="lg">
-                      <a href="https://cvdesignr.com/p/D0olpbzwnq37oVn">
-                        Download Resume
-                      </a>
+                      <Link to="/contact">Contact Me</Link>
                     </Button>
                   </div>
                 </div>

@@ -39,7 +39,7 @@ export default function Projects() {
       description: "Task management system using TensorFlow for intelligent task prioritization.",
       tags: ["Python", "TensorFlow", "ML"],
       githubUrl: "https://github.com/Bourzgui/tf-tasks",
-      imageSrc: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7"
+      imageSrc: "src/image/tf.png"
     },
     {
       title: "3D Rubik's Cube game",

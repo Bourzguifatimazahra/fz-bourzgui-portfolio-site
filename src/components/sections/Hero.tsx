@@ -51,7 +51,9 @@ export function Hero() {
                 <Link to="/projects">View Projects</Link>
               </Button>
               <Button variant="outline" size="lg" asChild>
-                <Link to="/contact">Contact Me</Link>
+              <a href="https://cvdesignr.com/p/D0olpbzwnq37oVn">
+                        Download Resume
+                      </a>
               </Button>
             </div>
           </div>
