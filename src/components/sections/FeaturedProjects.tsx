@@ -12,21 +12,21 @@ const featuredProjects = [
     tags: ["React", "Node.js", "MongoDB", "Express"],
     githubUrl: "https://github.com/Bourzgui/front-endblog",
     demoUrl: "https://stellar-sundae-cb7301.netlify.app/",
-    imageSrc: "src/image/blog4.png"
+    imageSrc: "/image/blog4.png"
   },
   {
     title: "3D Rubik's Cube game",
     description: "This is a fun and engaging 3D Rubik's Cube game developed using HTML, CSS, and JavaScript",
     tags: ["Web", "Game", "Frontend"],
     githubUrl: "https://github.com/Bourzguifatimazahra/Cube",
-    imageSrc: "src/image/cube .png"
+    imageSrc: "/image/cube .png"
   },
   {
     title: "Bode Plotter",
     description: "The project allows you to plot Bode diagrams for filters, view the history of applied filters, generate PDFs of the diagrams, and save the filter parameters in an SQLite database.",
     tags: ["Python", "Tkinter", "SQLite", "FPDF", "Matplotlib", "SciPy"],
     githubUrl: "https://github.com/Bourzguifatimazahra/BodePlotter",
-    imageSrc: "src/image/bode_plot.png"
+    imageSrc: "/image/bode_plot.png"
   },
 ];
 
