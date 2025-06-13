@@ -7,26 +7,28 @@ import { motion } from "framer-motion";
 
 const featuredProjects = [
   {
+    title: "AIOXExplorer",
+    description: "Explorez les merveilles culturelles du Maroc avec un guide AI qui vous parle de l'histoire, de l'art et des histoires qui les entourent.",
+    tags: ["React", "Node.js", "MongoDB", "Express"],
+    githubUrl: "https://github.com/Bourzguifatimazahra/aiox-cultural-explorer-guide",
+    demoUrl: "https://aiox-g.netlify.app/",
+    imageSrc: "/image/aiox.png"
+  },
+  {
+    title: "HopEplate",
+    description: "HopEplate met en relation les restaurants ayant des surplus alimentaires avec des consommateurs recherchant des repas à prix réduits et des associations caritatives.",
+    tags: ["React", "Node.js", "MongoDB", "Express"],
+    githubUrl: "https://github.com/Bourzguifatimazahra/hopeplate-food-connect-05",
+    demoUrl: "https://hopeplate.netlify.app/",
+    imageSrc: "/image/hopee.png"
+  },
+  {
     title: "Blog Platform",
     description: "A full-stack blogging platform with modern features and responsive design.",
     tags: ["React", "Node.js", "MongoDB", "Express"],
     githubUrl: "https://github.com/Bourzgui/front-endblog",
     demoUrl: "https://stellar-sundae-cb7301.netlify.app/",
     imageSrc: "/image/blog4.png"
-  },
-  {
-    title: "3D Rubik's Cube game",
-    description: "This is a fun and engaging 3D Rubik's Cube game developed using HTML, CSS, and JavaScript",
-    tags: ["Web", "Game", "Frontend"],
-    githubUrl: "https://github.com/Bourzguifatimazahra/Cube",
-    imageSrc: "/image/cube .png"
-  },
-  {
-    title: "Bode Plotter",
-    description: "The project allows you to plot Bode diagrams for filters, view the history of applied filters, generate PDFs of the diagrams, and save the filter parameters in an SQLite database.",
-    tags: ["Python", "Tkinter", "SQLite", "FPDF", "Matplotlib", "SciPy"],
-    githubUrl: "https://github.com/Bourzguifatimazahra/BodePlotter",
-    imageSrc: "/image/bode_plot.png"
   },
 ];
 

@@ -5,6 +5,22 @@ import { ProjectCard } from "@/components/ProjectCard";
 export default function Projects() {
   const projects = [
     {
+      title: "AIOXExplorer",
+      description: "Explorez les merveilles culturelles du Maroc avec un guide AI qui vous parle de l'histoire, de l'art et des histoires qui les entourent.",
+      tags: ["React", "Node.js", "MongoDB", "Express"],
+      githubUrl: "https://github.com/Bourzguifatimazahra/aiox-cultural-explorer-guide",
+      demoUrl: "https://aiox-g.netlify.app/",
+      imageSrc: "/image/aiox.png"
+    },
+    {
+      title: "HopEplate",
+      description: "HopEplate met en relation les restaurants ayant des surplus alimentaires avec des consommateurs recherchant des repas à prix réduits et des associations caritatives.",
+      tags: ["React", "Node.js", "MongoDB", "Express"],
+      githubUrl: "https://github.com/Bourzguifatimazahra/hopeplate-food-connect-05",
+      demoUrl: "https://hopeplate.netlify.app/",
+      imageSrc: "/image/hopee.png"
+    },
+    {
       title: "Blog Platform",
       description: "A full-stack blogging platform with modern features and responsive design.",
       tags: ["React", "Node.js", "MongoDB", "Express"],
@@ -12,6 +28,7 @@ export default function Projects() {
       demoUrl: "https://stellar-sundae-cb7301.netlify.app/",
       imageSrc: "/image/blog4.png"
     },
+
     {
       title: "Stagelink",
       description: "The StageLink project is a web application developed with Laravel. It allows the management of internship offers and CVs, with a system for handling applications, search filters, and administrative features.",
